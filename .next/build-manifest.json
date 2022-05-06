@@ -34,6 +34,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/pokemon.js"
+    ],
+    "/pokemon/[name1]": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/pokemon/[name1].js"
     ]
   },
   "ampFirstPages": []

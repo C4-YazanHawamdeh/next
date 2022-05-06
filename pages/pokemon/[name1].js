@@ -23,8 +23,8 @@ const Pokemons1 = ({ po, po1, po2, po3, p4 }) => {
   return (
     <div>
       <div>
-        <h3>name : {p4}</h3>
-        <h3>abilities :</h3>
+        <h3>Name : {p4}</h3>
+        <h3>Abilities :</h3>
         {po.map(pokemon => (
           <div key={pokemon.id}>
 
@@ -34,9 +34,9 @@ const Pokemons1 = ({ po, po1, po2, po3, p4 }) => {
           </div>
         ))}
       </div>
-      <h3>base_experience : {po1}</h3>
-      <h3>height : {po2}</h3>
-      <h3>weight : {po3}</h3>
+      <h3> Base_experience : {po1}</h3>
+      <h3> Height : {po2}</h3>
+      <h3>Weight : {po3}</h3>
     </div>
   );
 }

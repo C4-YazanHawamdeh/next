@@ -8,14 +8,14 @@ return (
     <div>
         <div className='navbar'>
             <ul>
-                <li className="it">home</li>
-                <li className="it">about </li>
+                <li className="it" ><a href='http://localhost:3000/'>home</a></li>
+                <li className="it"> <a href='http://localhost:3000/pokemon'>pokemons</a> </li>
                 <li className="it">contact</li>
             </ul>
         </div>
     {children}
 
-      <footer className={styles.footer}>
+      <footer className='footer'>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
